@@ -41,4 +41,8 @@ open class PimpedViewController: UIViewController {
         alert.addAction(okBtn)
         present(alert, animated: true)
     }
+    
+    public func setLoading(isLoading: Bool) {
+        loadingIndicator.isAnimating = isLoading
+    }
 }
