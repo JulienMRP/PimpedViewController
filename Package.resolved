@@ -5,9 +5,9 @@
         "package": "ProgressView",
         "repositoryURL": "https://github.com/JulienMRP/ProgressView.git",
         "state": {
-          "branch": null,
+          "branch": "release/v1",
           "revision": "5ad405e546b2e81b1da747289fb0dd58f98571d7",
-          "version": "1.0.0"
+          "version": null
         }
       }
     ]

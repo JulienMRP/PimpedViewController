@@ -14,7 +14,7 @@ let package = Package(
             targets: ["PimpedViewController"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/JulienMRP/ProgressView.git", from: "1.0.0"),
+        .package(url: "https://github.com/JulienMRP/ProgressView.git", .branch("release/v1")),
     ],
     targets: [
         .target(
