@@ -11,14 +11,18 @@ open class PimpedViewController: UIViewController {
            return progress
        }()
        
-    public override func viewDidLoad() {
-        super.viewDidLoad()
+    open override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        view.backgroundColor = backgroundColor
         setupProgressBar()
     }
     
-    public override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        view.backgroundColor = backgroundColor
+    public func setLoadingColors(colors: [UIColor]) {
+        loadingColors = colors
+    }
+    
+    public func setBackgroundColor(color: UIColor) {
+        backgroundColor = color
     }
     
     func setupProgressBar() {
