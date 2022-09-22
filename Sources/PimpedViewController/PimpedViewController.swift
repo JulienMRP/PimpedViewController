@@ -1,7 +1,7 @@
 import UIKit
 import ProgressView
 
-public class PimpedViewController: UIViewController {
+open class PimpedViewController: UIViewController {
     var backgroundColor: UIColor = .systemBackground
     var loadingColors: [UIColor] = [.red, .blue, .green]
     
