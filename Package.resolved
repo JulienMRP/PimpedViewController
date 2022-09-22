@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ProgressView",
+        "repositoryURL": "https://github.com/JulienMRP/ProgressView.git",
+        "state": {
+          "branch": null,
+          "revision": "5ad405e546b2e81b1da747289fb0dd58f98571d7",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
