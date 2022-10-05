@@ -39,7 +39,7 @@ open class PimpedViewController: UIViewController {
            ])
     }
     
-    func showErrorPopUp(title: String, message: String?) {
+    public func showErrorPopUp(title: String, message: String?) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let okBtn = UIAlertAction(title: "Ok", style: .destructive)
         alert.addAction(okBtn)
